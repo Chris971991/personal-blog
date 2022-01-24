@@ -1,0 +1,77 @@
+@import "./colors";
+
+.navbar {
+  height: 70px;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.logo img {
+  width: 50px;
+}
+
+.nav-container {
+  height: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.navbar .nav-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav li {
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-size: 14px;
+
+  ::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: $blue;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  :hover::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: $blue;
+    display: block;
+    margin: auto;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: $blue;
+  }
+}
