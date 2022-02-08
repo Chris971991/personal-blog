@@ -14,365 +14,299 @@
     <title>Andrew Parkinson - Portfolio & Blog</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="nav-container">
-        <div class="logo">
-          <img src="./images/mockup-logo.png" alt="Logo" />
-          <h1>A.Parkinson</h1>
+    <nav class="navbar-wrapper">
+      <div class="navbar">
+        <div class="navbar-logo">
+          <img
+            src="./images/mockup-logo.png"
+            alt="Andrew Parkinson"
+            class="navbar-logo__img"
+          />
+          <h3 class="navbar-logo__text">A.Parkinson</h3>
         </div>
-        <ul class="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <i class="fas fa-bars"></i>
+        <div class="nav">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >About</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-link">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <header class="header">
-      <div class="row">
-        <div class="hero-container">
-          <div class="hero-text">
-            <h2>Who am i?</h2>
-            <h1>
-              Andrew <br />
-              &nbsp;Parkinson
-            </h1>
-            <p>
+    <main class="main">
+      <div class="hero-wrapper">
+        <section class="hero">
+          <div class="hero-info">
+            <h2 class="hero-info__header">Who am I?</h2>
+            <h1 class="hero-info__title">Andrew<br />&nbsp;&nbsp;Parkinson</h1>
+            <p class="hero-info__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
               rutrum dui in purus ultricies, sed elementum nunc hendrerit.
               Nullam nec ex quis augue porta blandit in et tortor.
             </p>
-            <a href="#"><button class="button">Learn More</button></a>
+            <button class="button-1">Learn More</button>
           </div>
-          <figure class="hero-img">
-            <img src="./images/andrew-1.png" alt="This is me!" />
-          </figure>
-        </div>
+          <div class="hero-img-container">
+            <img
+              src="./images/andrew-1.png"
+              alt="Andrew Parkinson"
+              class="hero-img-container__img"
+            />
+          </div>
+        </section>
       </div>
-    </header>
-    <section class="about-me">
-      <div class="row">
-        <div class="about-container">
-          <div class="vert-container">
-            <figure class="about-img">
-              <img
-                src="./images/andrew-2.jpg"
-                alt="This is also me!"
-                class="abt-img"
-              />
-            </figure>
-            <div class="about-text-box">
-              <div class="about-text">
-                <h2>About Me</h2>
-                <h1>Personal Details</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  rutrum dui in purus ultricies, sed elementum nunc hendrerit.
-                  Nullam nec ex quis augue porta blandit in et tortor. Etiam
-                  rutrum dui in purus ultricies, sed elementum nunc hendrerit.
-                  Nullam nec ex quis augue porta blandit in et tortor.
-                </p>
-                <a href="#"><button class="button">Full Details</button></a>
-              </div>
+      <section class="about-wrapper">
+        <div class="about">
+          <div class="about-img-container">
+            <img
+              src="./images/andrew-2.jpg"
+              alt="Andrew Parkinson"
+              class="about-img-container__img"
+            />
+          </div>
+          <div class="about-info-container">
+            <div class="about-info">
+              <h2 class="about-info__header">About Me</h2>
+              <h1 class="about-info__title">Personal Details</h1>
+              <p class="about-info__desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                rutrum dui in purus ultricies, sed elementum nunc hendrerit.
+                Nullam nec ex quis augue porta blandit in et tortor.<br />Etiam
+                rutrum dui in purus ultricies, sed elementum nunc hendrerit.
+                Nullam nec ex quis augue porta blandit in et tortor.
+              </p>
+              <button class="button-1">
+                <a href="http://" target="_blank" rel="noopener noreferrer"
+                  >Full Details</a
+                >
+              </button>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="skills">
-      <div class="row">
-        <div class="skills-container">
-          <div class="skills-heading-container">
-            <h1>My Skills</h1>
-            <p>
+      </section>
+      <hr />
+      <section class="skills-wrapper">
+        <div class="skills">
+          <div class="skills-desc">
+            <h1 class="skills-desc__title">My Skills</h1>
+            <p class="skills-desc__info">
               Here are some of the skills that I have developed throughout my
               career. These are not limited and are expanding further everyday.
             </p>
           </div>
-          <div class="skills-cards-container">
+          <div class="skills-card-container">
             <div class="skill">
               <i class="fas fa-object-group"></i>
-              <h2>Web Design</h2>
-              <p>
+              <h2 class="skill__header">Web Design</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
             <div class="skill">
               <i class="fas fa-desktop"></i>
-              <h2>Web Developement</h2>
-              <p>
+              <h2 class="skill__header">Web Developement</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
             <div class="skill">
               <i class="fas fa-camera"></i>
-              <h2>Photography</h2>
-              <p>
+              <h2 class="skill__header">Photography</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
             <div class="skill">
               <i class="fas fa-database"></i>
-              <h2>Data Management</h2>
-              <p>
+              <h2 class="skill__header">Data Management</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
             <div class="skill">
               <i class="fas fa-mobile-alt"></i>
-              <h2>Apps Interface</h2>
-              <p>
+              <h2 class="skill__header">Apps Interface</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
             <div class="skill">
               <i class="fas fa-palette"></i>
-              <h2>Graphic Design</h2>
-              <p>
+              <h2 class="skill__header">Graphic Design</h2>
+              <p class="skill__desc">
                 Here are some of the services that I can provide. These are not
                 limited and are expanding further everyday.
               </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="metrics">
-      <div class="row">
-        <div class="metrics-container">
-          <div class="metric-card">
-            <h1>195</h1>
-            <p>Projects Completed</p>
+      </section>
+      <section class="metrics-wrapper">
+        <div class="metrics">
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
           </div>
-          <div class="metric-card">
-            <h1>323</h1>
-            <p>Happy Clients</p>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
           </div>
-          <div class="metric-card">
-            <h1>656</h1>
-            <p>Cups of Coffee</p>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
           </div>
-          <div class="metric-card">
-            <h1>102</h1>
-            <p>Personal Projects</p>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="projects">
-      <div class="row">
-        <div class="projects-container">
-          <div class="projects-heading-container">
-            <h1>Projects</h1>
-            <p>
-              Here are some of the skills that I have developed throughout my
-              career. These are not limited and are expanding further everyday.
+      </section>
+      <section class="projects-wrapper">
+        <div class="projects">
+          <div class="projects-desc">
+            <h1 class="projects-desc__title">Projects</h1>
+            <p class="projects-desc__info">
+              Check out some of the projects I have made for both personal and
+              professional applications.
             </p>
           </div>
-          <div class="projects-cards-container">
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+          <div class="projects-card-container">
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
-            <div class="project-card">
-              <div class="project">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Item</h2>
-              </div>
+            <div class="project">
+              <div class="project-item-card"></div>
+              <h2 class="project__header">Item</h2>
             </div>
           </div>
-          <div class="projects-footer-container">
-            <p>Check out my full portfolio page for more details!</p>
-            <a href="#"><button class="button">Portfolio</button></a>
-          </div>
+          <p class="projects-cta__info">
+            Check out my full portfolio page for more details!
+          </p>
+          <button class="button-1">Portfolio</button>
         </div>
-      </div>
-    </section>
-    <section class="blogs">
-      <div class="row">
-        <div class="blog-container">
-          <div class="blog-heading-container">
-            <h1>Latest Posts From My Blog</h1>
-            <p>
+      </section>
+      <section class="blogs-wrapper">
+        <div class="blogs">
+          <div class="blogs-desc">
+            <h1 class="blogs-desc__title">Latest Posts From My Blog</h1>
+            <p class="blogs-desc__info">
               I make regular blog posts about many different things! Work,
               projects, art, jobs and much more! Feel free to head over to the
               blog page to know more.
             </p>
           </div>
-          <div class="blog-cards-container">
-            <div class="blog-card">
-              <div class="blog">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Blog Title</h2>
-                <p>This is where the blog will start...</p>
-              </div>
+          <div class="blogs-card-container">
+            <div class="blog">
+              <div class="blog-item-card"></div>
+              <h2 class="blog__header">Blog Title</h2>
+              <p class="blog__desc">
+                Lorum like to talk to little cats on the...
+              </p>
             </div>
-            <div class="blog-card">
-              <div class="blog">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Blog Title</h2>
-                <p>This is where the blog will start...</p>
-              </div>
+            <div class="blog">
+              <div class="blog-item-card"></div>
+              <h2 class="blog__header">Blog Title</h2>
+              <p class="blog__desc">
+                Lorum like to talk to little cats on the...
+              </p>
             </div>
-            <div class="blog-card">
-              <div class="blog">
-                <div class="item">
-                  <div class="img-overlay">
-                    <img
-                      src="./images/icon-view.svg"
-                      alt="Take a close look!"
-                    />
-                  </div>
-                </div>
-                <h2>Blog Title</h2>
-                <p>This is where the blog will start...</p>
-              </div>
+            <div class="blog">
+              <div class="blog-item-card"></div>
+              <h2 class="blog__header">Blog Title</h2>
+              <p class="blog__desc">
+                Lorum like to talk to little cats on the...
+              </p>
             </div>
           </div>
-          <div class="blog-footer-container">
-            <a href="#"><button class="button">Read My Blog</button></a>
+          <button class="button-1">Read My Blog</button>
+        </div>
+      </section>
+      <section class="metrics-wrapper">
+        <div class="metrics">
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
+          </div>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
+          </div>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
+          </div>
+          <div class="metric">
+            <h1 class="metric__header">525</h1>
+            <h2 class="metric__desc">Projects Completed</h2>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="companies">
-      <div class="row">
-        <div class="companies-container">
-          <div class="company-card">
-            <h1>
-              COMPANY <br />
-              LOGO <br />HERE
-            </h1>
-          </div>
-          <div class="company-card">
-            <h1>
-              COMPANY <br />
-              LOGO <br />HERE
-            </h1>
-          </div>
-          <div class="company-card">
-            <h1>
-              COMPANY <br />
-              LOGO <br />HERE
-            </h1>
-          </div>
+      </section>
+    </main>
+    <footer class="footer-wrapper">
+      <div class="footer">
+        <div class="footer-about">
+          <h1 class="footer-about__title">About Me</h1>
+          <p class="footer-about__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut
+            venenatis lacus. Fusce laoreet elit dolor, sed efficitur diam rutrum
+            et. Fusce at nibh non tellus interdum tincidunt. Phasellus ac
+            fringilla odio.
+          </p>
         </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="row">
-        <div class="footer-container">
-          <div class="footer-item">
-            <h1>About Me</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              ut venenatis lacus. Fusce laoreet elit dolor, sed efficitur diam
-              rutrum et.
-              <br />
-              Fusce at nibh non tellus interdum tincidunt. Phasellus ac
-              fringilla odio.
-            </p>
-          </div>
-          <div class="footer-item">
-            <h1>Newsletter</h1>
-            <p>
-              Stay up to date with my blogs and get an email when I write a new
-              one!
-            </p>
-          </div>
-          <div class="footer-item">
-            <h1>Follow Me</h1>
-            <p>Come be social!</p>
-          </div>
+        <div class="footer-news">
+          <h1 class="footer-news__title">Newsletter</h1>
+          <p class="footer-news__desc">
+            Stay up to date with my blogs and get an email when I write a new
+            one!
+          </p>
+        </div>
+        <div class="footer-social">
+          <h1 class="footer-social__title">Follow Me</h1>
+          <p class="footer-social__desc">Come be social!</p>
         </div>
       </div>
     </footer>
